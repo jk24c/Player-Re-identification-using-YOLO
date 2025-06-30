@@ -10,7 +10,8 @@
 2. [Approach & Methodology](#approach--methodology)  
    1. [Pipeline Design](#pipeline-design)  
    2. [Key Techniques](#key-techniques)  
-   3. [Challenges & Solutions](#challenges--solutions)  
+   3. [Challenges & Solutions](#challenges--solutions)
+   4. [Improvements with More Time](#Improvements-with-More-Time)
 3. [Updated `requirements.txt`](#updated-requirementstxt)  
 4. [Kaggle-Specific Setup](#kaggle-specific-setup)  
    1. [Enable GPU](#1-enable-gpu)   
@@ -74,7 +75,12 @@
 
 ---
 
-## Updated `requirements.txt`
+### Improvements with More Time
+- Train YOLO on more diverse sports footage.
+- Fine-tune OSNet on team-specific jerseys.
+- Implement stronger occlusion handling (e.g., GMCP tracker).
+
+---
 
 ```text
 ultralytics==8.0.0
